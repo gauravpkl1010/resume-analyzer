@@ -1,87 +1,45 @@
-# Welcome to React Router!
+# 🎯ResumeAnalyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+AI-powered resume analysis tool that helps users get insightful feedback, match job descriptions, and optimize their resumes — all in a clean, fast, and responsive UI.
 
 ---
 
-Built with ❤️ using React Router.
+## 🚀 Tech Stack
+
+| Tech                                                               | Description                         |
+| ------------------------------------------------------------------ | ----------------------------------- |
+| [Vite](https://vitejs.dev/)                                        | Lightning-fast frontend build tool  |
+| [React](https://react.dev/)                                        | Declarative component-based UI      |
+| [React Router](https://reactrouter.com/)                           | Client-side routing                 |
+| [Zustand](https://github.com/pmndrs/zustand)                       | Lightweight state management        |
+| [Tailwind CSS](https://tailwindcss.com/)                           | Utility-first styling framework     |
+| [clsx](https://github.com/lukeed/clsx)                             | Conditional classNames helper       |
+| [tailwind-animate](https://github.com/benface/tailwindcss-animate) | Easy animation classes for Tailwind |
+
+---
+
+## 🧠 Features
+
+- 🔍 **AI-powered resume parsing**
+- 📄 Smart keyword extraction and matching
+- 📝 Resume score and improvement suggestions
+- 💼 Job description analyzer and match rating
+- 🎯 Clean and responsive UI
+- ⚡️ Lightning-fast load times with Vite
+- 🌙 Smooth animations and dark mode ready (optional)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/gauravpkl1010/resume-analyzer.git
+cd resume-analyzer
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
