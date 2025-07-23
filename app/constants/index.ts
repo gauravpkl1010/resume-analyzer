@@ -89,6 +89,96 @@ export const resumes: Resume[] = [
       },
     },
   },
+  {
+    id: "4",
+    companyName: "Google",
+    jobTitle: "System Support Engineer",
+    imagePath: "/images/resume_01.png",
+    resumePath: "/resumes/resume-1.pdf",
+    feedback: {
+      overallScore: 85,
+      ATS: {
+        score: 90,
+        tips: [],
+      },
+      toneAndStyle: {
+        score: 90,
+        tips: [],
+      },
+      content: {
+        score: 90,
+        tips: [],
+      },
+      structure: {
+        score: 90,
+        tips: [],
+      },
+      skills: {
+        score: 90,
+        tips: [],
+      },
+    },
+  },
+  {
+    id: "5",
+    companyName: "Microsoft",
+    jobTitle: "Frontend Lead",
+    imagePath: "/images/resume_02.png",
+    resumePath: "/resumes/resume-2.pdf",
+    feedback: {
+      overallScore: 55,
+      ATS: {
+        score: 90,
+        tips: [],
+      },
+      toneAndStyle: {
+        score: 90,
+        tips: [],
+      },
+      content: {
+        score: 90,
+        tips: [],
+      },
+      structure: {
+        score: 90,
+        tips: [],
+      },
+      skills: {
+        score: 90,
+        tips: [],
+      },
+    },
+  },
+  {
+    id: "6",
+    companyName: "Meta",
+    jobTitle: "Cybersecurity Analyst",
+    imagePath: "/images/resume_03.png",
+    resumePath: "/resumes/resume-3.pdf",
+    feedback: {
+      overallScore: 75,
+      ATS: {
+        score: 95,
+        tips: [],
+      },
+      toneAndStyle: {
+        score: 90,
+        tips: [],
+      },
+      content: {
+        score: 90,
+        tips: [],
+      },
+      structure: {
+        score: 90,
+        tips: [],
+      },
+      skills: {
+        score: 90,
+        tips: [],
+      },
+    },
+  },
 ];
 
 export const AIResponseFormat = `
