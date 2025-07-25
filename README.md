@@ -21,13 +21,10 @@ AI-powered resume analysis tool that helps users get insightful feedback, match 
 ## 🧠 Features
 
 - 🔍 **AI-powered resume parsing**
-- 📄 Smart keyword extraction and matching
 - 📝 Resume score and improvement suggestions
 - 💼 Job description analyzer and match rating
 - 🎯 Clean and responsive UI
 - ⚡️ Lightning-fast load times with Vite
-- 🌙 Smooth animations and dark mode ready (optional)
-
 ---
 
 ## 📦 Installation
